@@ -1,31 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Xavier Rodríguez</title>
 
-    <link rel="stylesheet" href="/css/style.css">
+    <!--  Generic Imports */ -->
+    <link rel="stylesheet" href="/css/style.min.css" />
+    <script src="/js/jquery-3.6.0.min.js"></script>
   </head>
-  <a href="#main">Jump to content</a>
+  <a class="skip-to-content" href="#main">Jump to content</a>
   <body>
     <header>
       <h1>Xavier Rodríguez Martínez</h1>
+
+      <!--Navigation bar-->
+      <div id="nav-placeholder"></div>
+
+      <script>
+        $(function () {
+          $("#nav-placeholder").load("nav.html");
+        });
+      </script>
+      <!--end of Navigation bar-->
     </header>
 
-    <div class="navigation navbar-dark">
-      <nav class="navigation navbar">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="/about/">About me</a></li>
-          <li><a href="/accessibility/">Accesibility</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-       </nav>
-      </div>
-
-     <main>
-
-     </main>
+    <main></main>
 
     <p>I'm hosted with GitHub Pages.</p>
   </body>
