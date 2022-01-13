@@ -1,6 +1,6 @@
 /* -- Skip to Content -- */
 
-.skip-to-content-link {
+.skip-to-content {
   background: #e77e23;
   height: 30px;
   left: 50%;
@@ -10,7 +10,7 @@
   transition: transform 0.3s;
 }
 
-.skip-to-content-link:focus {
+.skip-to-content:focus {
   transform: translateY(0%);
 }
 
